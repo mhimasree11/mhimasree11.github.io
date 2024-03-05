@@ -1,0 +1,59 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    .column
+    {
+      float: left;
+      width: 50%;
+      padding: 2%;
+    }
+    /*Clear floats after the column*/
+    .row:after
+    {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) 
+    {
+      .column 
+      {
+        width: 100%;
+      }
+    }
+  </style>
+</meta>
+
+
+<div>
+  <!-- Row begins -->
+  <div class="row">
+    <!-- Instaloc -->
+    <div class="column">
+      <a href="/_blog/new.md"><h3>Indoor LiDAR Localization through Instance Learning</h3></a>
+      <p>One-shot Global Lidar Localisation in Indoor Environments through Instance Learning.</p>
+    </div>
+
+    <!-- Lidar depth completion -->
+    <div class="column">
+      <a href="/_blog/new2.md"><h3>3D Lidar Reconstruction with Probabilistic Depth Completion</h3></a>
+      <p>Learning-based uncertainty-aware depth completion.</p>
+    </div>
+  </div>  <!-- Row ends -->
+  
+</div>
+
