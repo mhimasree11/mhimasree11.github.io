@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Himasree Mustyala"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile2.jpeg"
   bio              : "Software Engineer"
   location         : "Oxford, UK"
   linkedin         : "https://www.linkedin.com/in/himasree-mustyala/"
@@ -211,25 +211,12 @@ kramdown:
   enable_coderay: false
 
 collections:
-  publications:
+  blog:
     output: true
     permalink: /:collection/:path/
-  projects:
+  resume:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  fun:
-    output: true
-    permalink: /:collection/:path/
-
 
 
 # Sass/SCSS
